@@ -12,6 +12,7 @@
  Default:1
  small:1.05
  medium:1.2
+ large:1.8
  paragraph default:1.6
  medium-1.8
 
@@ -66,6 +67,8 @@ html {
   /* Percentage of user browsewr font-size setting */
 
   font-size: 62.5%;
+  /* position: relative; */
+  overflow-x: hidden;
 }
 
 body {
@@ -73,6 +76,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
 }
 
 /************************************/
@@ -206,6 +212,7 @@ body {
   background-color: #fff;
   color: #555;
 }
+
 .link:link,
 .link:visited {
   display: inline-block;
@@ -240,6 +247,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 *:focus {
