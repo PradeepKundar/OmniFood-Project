@@ -9,7 +9,6 @@
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
-
   position: relative;
 }
 
@@ -75,6 +74,22 @@
   display: none;
 }
 
+/* STICKY*/
+.sticky .header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 6rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 1.6rem 2.4rem rgba(0, 0, 0, 0.06);
+}
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
 /************************************/
 /* HERO SECTION*/
 /************************************/
